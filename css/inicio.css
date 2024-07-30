@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:monserrat;
+}
+
+body {
+    background-image: url(/img/web-de-citas.jpg_bgFondo_inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height:100vh;
+    width: 100%;
+}
+
+.form-register {
+    width: 400px;
+    background:#24303c;
+    padding: 30px;
+    margin:auto;
+    margin-top:100px;
+    border-radius: 5px;
+    font-family:'Times New Roman', Times, serif;
+    color:#fff;
+    box-shadow: 7px 13px 37px #000;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.form-register h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color:#000;
+    text-align: center;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border:1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 19px;
+    color: #fff;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 19px; 
+    color:#000;
+    font-weight: bold;
+    
+    
+}
+
+.form-register a {
+    color:#fff;
+    text-decoration: none; 
+    color:#000;
+    font-weight: bold; 
+}
+
+.form-register a:hover {
+    color:#fff;
+    text-decoration: underline; 
+    color:#507ddd;
+}
+
+.form-register .botons {
+    width: 100%;
+    background-color: #507ddd;
+    border:none;
+    margin: 0px 10px;
+    padding: 12px;
+    color:#fff;
+    font-size: 16px;
+    margin: 16px 0;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    
+}
+.form-register .botons:hover {
+    background:#1f53c5;
+    cursor: pointer;
+    
+}
